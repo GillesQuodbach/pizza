@@ -1,0 +1,19 @@
+.example-card {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.example-header-image {
+  background-image: url("./../../../assets/fms.png");
+  background-size: cover;
+}
+
+.contact-img {
+  background-image: url("./../../../assets/fms.png");
+  width: 100%;
+  height: 200px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
