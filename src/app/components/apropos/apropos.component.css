@@ -1,0 +1,19 @@
+.apropos-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #edece8;
+  padding-top: 3rem;
+}
+
+.apropos-text {
+  width: 500px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.apropos-text-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
