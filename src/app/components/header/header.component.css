@@ -1,0 +1,30 @@
+.header-container {
+  width: auto;
+  height: 80px;
+  background-color: #425a3a;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: center; */
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.header-title {
+  color: #fff;
+  justify-self: start;
+  align-self: center;
+  /* background-color: red; */
+  margin: 0;
+  padding-left: 0;
+}
+
+.header-btn-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.header-btn {
+  background-color: #62a732;
+  color: #fff;
+}
