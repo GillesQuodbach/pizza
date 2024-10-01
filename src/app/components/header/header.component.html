@@ -5,19 +5,25 @@
       <mat-icon>home</mat-icon>
       Accueil
     </button>
-    <button class="header-btn" mat-fab extended>
+    <button
+      (click)="scrollToSection('gallerySection')"
+      class="header-btn"
+      mat-fab
+      extended
+    >
       <mat-icon>photo_library</mat-icon>
-      Galerie
-    </button>
-    <button class="header-btn" mat-fab extended>
-      <mat-icon>savings</mat-icon>
-      Coupons
+      Nos pizzas
     </button>
     <button class="header-btn" mat-fab extended>
       <mat-icon>event</mat-icon>
       Evénements
     </button>
-    <button class="header-btn" mat-fab extended>
+    <button
+      (click)="scrollToSection('aproposSection')"
+      class="header-btn"
+      mat-fab
+      extended
+    >
       <mat-icon>info</mat-icon>
       A propos de nous
     </button>
