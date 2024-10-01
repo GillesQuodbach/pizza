@@ -4,6 +4,7 @@ import { MaterialComponents } from './material/material.module';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
 import { AproposComponent } from './components/apropos/apropos.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
 
 @Component({
   selector: 'app-root',
@@ -14,6 +15,7 @@ import { AproposComponent } from './components/apropos/apropos.component';
     HeaderComponent,
     HomeComponent,
     AproposComponent,
+    GalleryComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',

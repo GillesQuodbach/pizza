@@ -1,0 +1,51 @@
+.gallery-container {
+  width: 90%;
+  height: 500px;
+  padding-top: 3rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.gallery-title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+mat-grid-tile {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pizza1 {
+  background-image: url("./../../../assets/image1.webp");
+}
+
+.pizza2 {
+  background-image: url("./../../../assets/image2.webp");
+}
+
+.pizza3 {
+  background-image: url("./../../../assets/image3.webp");
+}
+
+.pizza4 {
+  background-image: url("./../../../assets/image4.jpg");
+}
+
+.pizza5 {
+  background-image: url("./../../../assets/image4.webp");
+}
+
+.pizza6 {
+  background-image: url("./../../../assets/image5.jpg");
+}
+
+.pizza7 {
+  background-image: url("./../../../assets/image6.jpg");
+}
+
+.pizza8 {
+  background-image: url("./../../../assets/image7.jpg");
+}
