@@ -16,8 +16,15 @@ import { ContactComponent } from '../contact/contact.component';
 export class HeaderComponent {
   scrollToSection(sectionId: string): void {
     const section = document.getElementById(sectionId);
+    const offset = 80;
     if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
+      const sectionPosition =
+        section.getBoundingClientRect().top + window.scrollY;
+
+      window.scrollTo({
+        top: sectionPosition - offset,
+        behavior: 'smooth',
+      });
     }
   }
 
