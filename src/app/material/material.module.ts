@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatGridListModule } from '@angular/material/grid-list';
-
+import { MatDialogModule } from '@angular/material/dialog';
 import { MatCardModule } from '@angular/material/card';
 
 export const MaterialComponents: any = [
@@ -11,6 +11,7 @@ export const MaterialComponents: any = [
   MatIconModule,
   MatGridListModule,
   MatCardModule,
+  MatDialogModule,
 ];
 
 @NgModule({

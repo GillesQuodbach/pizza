@@ -2,7 +2,7 @@
   <mat-card-header>
     <div mat-card-avatar class="example-header-image"></div>
     <mat-card-title>MyPizza</mat-card-title>
-    <mat-card-subtitle>By FMS</mat-card-subtitle>
+    <mat-card-subtitle class="contact-subtitle">By FMS</mat-card-subtitle>
   </mat-card-header>
   <div class="contact-img"></div>
   <mat-card-content>
@@ -11,18 +11,20 @@
       retrouver sur nos réseaux !
     </p>
   </mat-card-content>
-  <mat-card-actions>
-    <button class="header-btn" mat-fab extended>
+  <mat-card-actions class="contact-btn-container">
+    <button
+      class="contact-btn"
+      mat-fab
+      (click)="openDialog()"
+      aria-label="email button"
+    >
       <mat-icon>mail</mat-icon>
-      Email
     </button>
-    <button class="header-btn" mat-fab extended>
+    <button class="contact-btn" mat-fab aria-label="facebook button">
       <mat-icon svgIcon="facebook_icon"></mat-icon>
-      Facebook
     </button>
-    <button class="header-btn" mat-fab extended>
+    <button class="contact-btn" mat-fab aria-label="instagram button">
       <mat-icon svgIcon="instagram_icon"></mat-icon>
-      Instagram
     </button>
   </mat-card-actions>
 </mat-card>
