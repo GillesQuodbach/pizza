@@ -36,4 +36,8 @@ export class ContactComponent {
       console.log(`Dialog result: ${result}`);
     });
   }
+
+  openLink(url: string) {
+    window.open(url, '_blank');
+  }
 }

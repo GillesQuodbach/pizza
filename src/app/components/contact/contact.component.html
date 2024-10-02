@@ -7,7 +7,7 @@
   <div class="contact-img"></div>
   <mat-card-content>
     <p>
-      N'hésitez pas à nous contacter pour toute demande d'information, on a nous
+      N'hésitez pas à nous contacter pour toute demande d'information, on à nous
       retrouver sur nos réseaux !
     </p>
   </mat-card-content>
@@ -20,10 +20,20 @@
     >
       <mat-icon>mail</mat-icon>
     </button>
-    <button class="contact-btn" mat-fab aria-label="facebook button">
+    <button
+      class="contact-btn"
+      mat-fab
+      aria-label="facebook button"
+      (click)="openLink('https://www.facebook.com')"
+    >
       <mat-icon svgIcon="facebook_icon"></mat-icon>
     </button>
-    <button class="contact-btn" mat-fab aria-label="instagram button">
+    <button
+      class="contact-btn"
+      mat-fab
+      aria-label="instagram button"
+      (click)="openLink('https://www.instagram.com')"
+    >
       <mat-icon svgIcon="instagram_icon"></mat-icon>
     </button>
   </mat-card-actions>
