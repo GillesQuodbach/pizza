@@ -1,0 +1,9 @@
+.card-container {
+  padding-top: 3rem;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+}

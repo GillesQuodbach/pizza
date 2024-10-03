@@ -11,14 +11,24 @@
       Accueil
     </button>
     <button
+      (click)="scrollToSection('cardSection')"
+      class="header-btn"
+      mat-fab
+      extended
+    >
+      <mat-icon>menu_book</mat-icon>
+      Carte
+    </button>
+    <button
       (click)="scrollToSection('gallerySection')"
       class="header-btn"
       mat-fab
       extended
     >
       <mat-icon>photo_library</mat-icon>
-      Nos pizzas
+      Gallerie
     </button>
+
     <button class="header-btn" mat-fab extended>
       <mat-icon>event</mat-icon>
       Evénements

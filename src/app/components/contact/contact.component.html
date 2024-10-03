@@ -1,37 +1,52 @@
 <mat-card class="example-card" appearance="outlined">
   <mat-card-header>
-    <div mat-card-avatar class="example-header-image"></div>
+    <div
+      mat-card-avatar
+      class="example-header-image"
+      role="img"
+      aria-label="Logo de MyPizza"
+    ></div>
     <mat-card-title>MyPizza</mat-card-title>
     <mat-card-subtitle class="contact-subtitle">By FMS</mat-card-subtitle>
   </mat-card-header>
-  <div class="contact-img"></div>
+
+  <div class="contact-img" role="img" aria-label="Image de contact"></div>
+
   <mat-card-content>
-    <p>
-      N'hésitez pas à nous contacter pour toute demande d'information, on à nous
-      retrouver sur nos réseaux !
+    <p class="contact-text">
+      N'hésitez pas à nous contacter pour toute demande d'information, ou à nous
+      retrouver sur nos réseaux sociaux !
+    </p>
+
+    <p class="contact-phone">
+      <mat-icon class="contact-phone-icon" aria-hidden="true">call</mat-icon>
+      <a href="tel:+33558483987" class="contact-phone-link"> 05 58 48 39 87 </a>
     </p>
   </mat-card-content>
+
   <mat-card-actions class="contact-btn-container">
     <button
       class="contact-btn"
       mat-fab
       (click)="openDialog()"
-      aria-label="email button"
+      aria-label="Envoyer un email"
     >
       <mat-icon>mail</mat-icon>
     </button>
+
     <button
       class="contact-btn"
       mat-fab
-      aria-label="facebook button"
+      aria-label="Accéder à la page Facebook de MyPizza"
       (click)="openLink('https://www.facebook.com')"
     >
       <mat-icon svgIcon="facebook_icon"></mat-icon>
     </button>
+
     <button
       class="contact-btn"
       mat-fab
-      aria-label="instagram button"
+      aria-label="Accéder à la page Instagram de MyPizza"
       (click)="openLink('https://www.instagram.com')"
     >
       <mat-icon svgIcon="instagram_icon"></mat-icon>

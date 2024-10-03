@@ -6,6 +6,7 @@ import { HomeComponent } from './components/home/home.component';
 import { AproposComponent } from './components/apropos/apropos.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { CardComponent } from './components/card/card.component';
 
 @Component({
   selector: 'app-root',
@@ -18,6 +19,7 @@ import { FooterComponent } from './components/footer/footer.component';
     AproposComponent,
     GalleryComponent,
     FooterComponent,
+    CardComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
