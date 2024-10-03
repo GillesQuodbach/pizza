@@ -21,6 +21,8 @@
   /* background-color: red; */
   margin: 0;
   padding-left: 0;
+  font-family: "Satisfy", system-ui;
+  font-size: 2rem;
 }
 
 .header-btn-container {

@@ -4,7 +4,8 @@
 
 .card-title {
   text-align: center;
-  font-size: 3rem;
+  font-family: "Satisfy", cursive;
+  font-size: 4rem;
   font-weight: 500;
   margin: 0;
   height: 50px;
@@ -46,7 +47,7 @@ mat-grid-tile {
 .pizza-category {
   color: #c21622;
   font-weight: 500;
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: "Sedgwick Ave", cursive;
   padding-top: 2rem;
 }

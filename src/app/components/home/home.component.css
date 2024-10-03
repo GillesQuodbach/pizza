@@ -29,7 +29,8 @@
 }
 
 .home-title {
-  font-size: 4rem;
+  font-size: 6rem;
+  font-family: "Satisfy", system-ui;
 }
 
 .home-welcome {
