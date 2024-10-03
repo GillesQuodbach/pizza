@@ -1,4 +1,26 @@
 <div id="cardSection" class="card-container">
   <p class="card-title">Notre carte</p>
-  <img src="carte-pizza2.jpg" alt="" />
+  <mat-grid-list cols="2" rowHeight="300px" gutterSize="2rem">
+    <mat-grid-tile
+      colspan="1"
+      rowspan="1"
+      class="pizza-category-grid-tile"
+      *ngFor="let category of pizzas"
+    >
+      <div class="mat-grid-tile-content">
+        <h2 class="pizza-category">{{ category.category }}</h2>
+        <div class="pizza-list">
+          <div class="pizza-list-items" *ngFor="let pizza of category.items">
+            <div class="pizza-item-container-row1">
+              <p class="pizza-name">{{ pizza.name }}</p>
+              <p class="pizza-price">{{ pizza.price | currency : "EUR" }}</p>
+            </div>
+            <div class="pizza-item-container-row2">
+              <p class="pizza-ingredient">{{ pizza.ingredients }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </mat-grid-tile>
+  </mat-grid-list>
 </div>

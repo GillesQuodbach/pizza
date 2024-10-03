@@ -1,9 +1,65 @@
 .card-container {
-  padding-top: 3rem;
+  padding: 3rem;
 }
 
 .card-title {
   text-align: center;
   font-size: 3rem;
+  font-weight: 500;
+  margin: 0;
+  height: 50px;
+}
+
+mat-grid-tile {
+  /* background: lightblue; */
+}
+
+.mat-grid-tile-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.pizza-list {
+  padding-left: 0;
+}
+
+.pizza-list p {
+  margin: 0;
+}
+.pizza-list-items {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.pizza-item-container-row1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pizza-item-container-row2 {
+}
+
+.pizza-category {
+  color: #c21622;
+  font-weight: 500;
+  font-size: 4rem;
+  font-family: "Sedgwick Ave", cursive;
+  padding-top: 2rem;
+}
+
+.pizza-name,
+.pizza-price {
+  color: #c21622;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.pizza-ingredient {
+  color: #425a3a;
+  font-size: 1.2rem;
   font-weight: 500;
 }
