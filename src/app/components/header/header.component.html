@@ -47,4 +47,52 @@
       Nous contacter
     </button>
   </div>
+  <div class="header-menu-container">
+    <button class="header-menu-btn" mat-button [matMenuTriggerFor]="menu">
+      <span class="header-menu-btn-text">Menu</span>
+    </button>
+    <mat-menu class="mat-menu" #menu="matMenu">
+      <button
+        class="small-menu-btn"
+        mat-menu-item
+        (click)="scrollToSection('homeSection')"
+      >
+        <mat-icon id="small-menu-btn-icon">home</mat-icon>
+        <span>Accueil</span>
+      </button>
+
+      <button
+        class="small-menu-btn"
+        mat-menu-item
+        (click)="scrollToSection('cardSection')"
+      >
+        <mat-icon id="small-menu-btn-icon">menu_book</mat-icon>
+        <span>Carte</span>
+      </button>
+      <button
+        class="small-menu-btn"
+        mat-menu-item
+        (click)="scrollToSection('gallerySection')"
+      >
+        <mat-icon id="small-menu-btn-icon">photo_library</mat-icon>
+        <span>Gallerie</span>
+      </button>
+      <button class="small-menu-btn" mat-menu-item>
+        <mat-icon id="small-menu-btn-icon">event</mat-icon>
+        <span>Evénements</span>
+      </button>
+      <button
+        class="small-menu-btn"
+        mat-menu-item
+        (click)="scrollToSection('aproposSection')"
+      >
+        <mat-icon id="small-menu-btn-icon">info</mat-icon>
+        <span>A propos</span>
+      </button>
+      <button class="small-menu-btn" mat-menu-item (click)="openBottomSheet()">
+        <mat-icon id="small-menu-btn-icon">mail</mat-icon>
+        <span>Nous contacter</span>
+      </button>
+    </mat-menu>
+  </div>
 </div>
