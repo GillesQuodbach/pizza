@@ -64,3 +64,25 @@ mat-grid-tile {
   font-size: 1.2rem;
   font-weight: 500;
 }
+
+@media (max-width: 669px) {
+  .card-title {
+    text-align: center;
+    font-family: "Satisfy", cursive;
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 0;
+    height: 50px;
+  }
+}
+
+@media (max-width: 460px) {
+  .card-title {
+    text-align: center;
+    font-family: "Satisfy", cursive;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0;
+    height: 50px;
+  }
+}

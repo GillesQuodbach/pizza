@@ -52,3 +52,21 @@ mat-grid-tile {
 .pizza8 {
   background-image: url("./../../../assets/image7.jpg");
 }
+
+@media (max-width: 669px) {
+  .gallery-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: "Sedgwick Ave", cursive;
+  }
+}
+
+@media (max-width: 460px) {
+  .gallery-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "Sedgwick Ave", cursive;
+  }
+}

@@ -36,3 +36,24 @@
 .home-welcome {
   font-size: 2rem;
 }
+
+@media (max-width: 669px) {
+  .home-title {
+    font-size: 4rem;
+    font-family: "Satisfy", system-ui;
+  }
+
+  .home-welcome {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 460px) {
+  .home-title {
+    font-size: 2rem;
+    font-family: "Satisfy", system-ui;
+  }
+  .home-welcome {
+    font-size: 1rem;
+  }
+}

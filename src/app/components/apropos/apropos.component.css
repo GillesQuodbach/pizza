@@ -17,3 +17,31 @@
   font-size: 3rem;
   font-family: "Sedgwick Ave", cursive;
 }
+
+@media (max-width: 669px) {
+  .apropos-text {
+    width: 500px;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  .apropos-text-title {
+    font-size: 2rem;
+    font-family: "Sedgwick Ave", cursive;
+  }
+}
+
+@media (max-width: 460px) {
+  .apropos-text {
+    width: 500px;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  .apropos-text-title {
+    font-size: 1.5rem;
+    font-family: "Sedgwick Ave", cursive;
+  }
+}
